@@ -7,7 +7,7 @@
 body {
     font-size: 16px;
     color: #666666;
-    font-family: 'Epilogue', sans-serif;
+    font-family: "Epilogue", sans-serif;
     vertical-align: baseline;
     line-height: 180%;
     font-weight: 400;
@@ -19,19 +19,19 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Epilogue', sans-serif;
+    font-family: "Epilogue", sans-serif;
     color: #032e42;
     line-height: 120%;
     font-weight: 700;
 }
-section{
+section {
     overflow: hidden;
 }
 
 :root {
     --dark-gray: rgb(59, 64, 82);
     /* --dark-red: rgb(187, 11, 11); */
-    --dark-red:#6684f9;
+    --dark-red: #6684f9;
     --artish-blue: rgb(3, 46, 66);
     --col-wh: rgb(255, 255, 255);
     --col-bla: rgb(0, 0, 0);
@@ -87,9 +87,9 @@ li {
     right: 0;
     margin: auto;
     position: absolute;
-    -webkit-transition: all .5s ease-out;
-    -o-transition: all .5s ease-out;
-    transition: all .5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .py-120 {
@@ -128,10 +128,9 @@ li {
     border-radius: 0 10px 0 10px;
     margin-left: 30px;
     text-transform: capitalize;
-    transition: all .3s linear;
-
+    transition: all 0.3s linear;
 }
-.primary-btn:hover{
+.primary-btn:hover {
     background-color: var(--artish-blue);
 }
 
@@ -142,7 +141,7 @@ li {
     color: var(--artish-blue);
     background-color: var(--col-wh);
     border-radius: 0 10px 0 10px;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 17px;
@@ -170,7 +169,7 @@ header .bg-color {
     display: flex;
     align-items: center;
     padding: 11px 0px;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
     text-transform: lowercase;
 }
 
@@ -190,7 +189,7 @@ header .bg-color {
     display: inline-block;
     margin-right: 13px;
     color: var(--col-wh);
-    transition: all .3s linear;
+    transition: all 0.3s linear;
 }
 
 .top-link:hover {
@@ -214,12 +213,12 @@ header .nav-link {
     display: inline-block;
     line-height: 108px;
     margin-right: 10px;
-    transition: all .35s linear;
+    transition: all 0.35s linear;
 }
 
 header .nav-item .nav-link {
     position: relative;
-    transition: all .35s linear;
+    transition: all 0.35s linear;
 }
 
 .search-icon {
@@ -247,7 +246,7 @@ header .nav-item .nav-link {
     border: 0;
 }
 
-.humburger-btn .btn-check:checked+.btn,
+.humburger-btn .btn-check:checked + .btn,
 .btn.active,
 .btn.show,
 .btn:first-child:active {
@@ -372,7 +371,7 @@ header .nav-item .nav-link {
 /* -----service section css start-------- */
 
 .service-section {
-    background-color: #FBFBFB;
+    background-color: #fbfbfb;
     padding: 120px 0px 166px 0px;
     position: relative;
     z-index: 1;
@@ -383,7 +382,7 @@ header .nav-item .nav-link {
     top: 0;
     right: 0;
     height: 100%;
-    width: 40.40%;
+    width: 40.4%;
     background-color: var(--dark-red);
     bottom: 0;
     content: "";
@@ -539,7 +538,7 @@ header .nav-item .nav-link {
 }
 
 .about-item {
-    transition: all .4s linear;
+    transition: all 0.4s linear;
 }
 
 .about-data .active,
@@ -582,7 +581,7 @@ header .nav-item .nav-link {
     margin-right: 45px;
 }
 
- .accordion-item {
+.accordion-item {
     margin-bottom: 30px;
     border: none;
     background-color: var(--col-wh);
@@ -598,8 +597,8 @@ header .nav-item .nav-link {
     height: 60px;
 }
 
- .accordion-item .accordion-button,
- .accordion-item .accordion-button.collapsed {
+.accordion-item .accordion-button,
+.accordion-item .accordion-button.collapsed {
     border-radius: 0px 10px 0px 10px;
 }
 
@@ -625,7 +624,7 @@ header .nav-item .nav-link {
     font-size: 30px;
     font-weight: 600;
     line-height: 73%;
-    transition: .1s linear;
+    transition: 0.1s linear;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -650,11 +649,12 @@ header .nav-item .nav-link {
 
 .from-control {
     border: none;
-    border-bottom: 1px solid #F8F3F3;
+    border-bottom: 1px solid #f8f3f3;
     padding: 20px 0px 10px 0px;
     font-size: 16px;
-    text-transform: capitalize;
+
     width: 100%;
+    background-color: white;
 }
 
 .mb-25 {
@@ -667,7 +667,6 @@ header .nav-item .nav-link {
 }
 
 /* --------faq section css End----- */
-
 
 /* ------footer section css start--------- */
 
@@ -740,7 +739,7 @@ footer .company-logo img {
 
 .foter-link {
     color: var(--col-wh);
-    transition: .35s linear;
+    transition: 0.35s linear;
 }
 
 .foter-link:hover {
@@ -756,7 +755,7 @@ footer .company-logo img {
     padding: 15px 20px;
     font-size: 14px;
     width: 100%;
-    background: #00344C;
+    background: #00344c;
     border: none;
     border-radius: 4px;
     margin-bottom: 20px;
@@ -782,11 +781,11 @@ footer .company-logo img {
     border-radius: 4px;
     border: 0;
     text-transform: capitalize;
-    transition: .2s linear;
+    transition: 0.2s linear;
 }
 
 .submit-btn:hover {
-    opacity: .9;
+    opacity: 0.9;
 }
 
 .bottom-foter {
@@ -813,20 +812,19 @@ footer .company-logo img {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .3s linear;
+    transition: 0.3s linear;
     cursor: pointer;
 }
 
 .back-to-top:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
 
 /* ------footer section css End--------- */
 
 /* -----------------min width media quary start---------- */
 
-@media (min-width:1199px) {
-
+@media (min-width: 1199px) {
     header .main-nav .active,
     header .nav-link:hover {
         color: var(--dark-red);
@@ -848,30 +846,26 @@ footer .company-logo img {
     .sub-menu li:hover .sub-menu2 {
         display: block;
     }
-
 }
 
 /* ---------------- 1200-min width media quary start---------- */
 
-@media (min-width:1200px) {
-
+@media (min-width: 1200px) {
     .container {
         max-width: 1200px;
         width: 100%;
     }
-
 }
 
 /*--------- min width and max width media quary start---------- */
 
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .sub-head {
         font-size: 30px;
     }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
-
     .testi-wrap {
         padding: 60px 30px;
     }
@@ -886,14 +880,11 @@ footer .company-logo img {
 
 /*--------- min width and max width media quary End ------------*/
 
-
-
 /* ----------------max width media quary start----------- */
 
 /* ----------------1199px-max width media quary start----------- */
 
-@media (max-width:1199px) {
-
+@media (max-width: 1199px) {
     .humburger {
         display: block;
     }
@@ -908,17 +899,17 @@ footer .company-logo img {
         padding: 30px 20px 20px 20px;
         z-index: 9999;
         right: -250px;
-        transition: all .5s ease-in-out;
+        transition: all 0.5s ease-in-out;
     }
 
-    .menuoverlab .main-nav{
+    .menuoverlab .main-nav {
         right: 0;
     }
 
     .search-btn {
         display: none;
     }
-    header .menu-bar li{
+    header .menu-bar li {
         margin-right: 0;
     }
 
@@ -951,13 +942,11 @@ footer .company-logo img {
     .foter-info {
         padding-left: 50px;
     }
-
 }
 
 /* ---------------1024px-max width media quary start----------- */
 
-@media (max-width:1024px) {
-
+@media (max-width: 1024px) {
     .top-head {
         display: none;
     }
@@ -973,8 +962,7 @@ footer .company-logo img {
 
 /* ---------------992px-max width media quary start----------- */
 
-@media (max-width:991px) {
-
+@media (max-width: 991px) {
     .scrolled {
         position: relative;
     }
@@ -1059,7 +1047,7 @@ footer .company-logo img {
     }
 
     .work-box {
-        padding: 60px 35px 60px 35px
+        padding: 60px 35px 60px 35px;
     }
 
     .mb-lg-50 {
@@ -1118,12 +1106,11 @@ footer .company-logo img {
     .addres-area {
         padding-left: 12px;
     }
-
 }
 
 /* ----------------768px- max width media quary start----------- */
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .h-ser-head {
         font-size: 20px;
     }
@@ -1150,7 +1137,7 @@ footer .company-logo img {
     }
 
     .service-section .tab-content {
-        padding: 30px 20px 50px 20px
+        padding: 30px 20px 50px 20px;
     }
 
     .section-tittle .sub-head br {
@@ -1168,12 +1155,11 @@ footer .company-logo img {
     .project-section .sub-head {
         font-size: 25px;
     }
-
 }
 
 /* ----------------567px- max width media quary start----------- */
 
-@media (max-width:567px) {
+@media (max-width: 567px) {
     .testi-icon img {
         height: 35px;
     }
@@ -1181,12 +1167,10 @@ footer .company-logo img {
     .pricing-wrap {
         padding-right: 46px;
     }
-
 }
 
 /* ----------------480px- max width media quary start----------- */
-@media (max-width:480px) {
-
+@media (max-width: 480px) {
     .humburger-btn {
         margin-left: 0px;
     }
